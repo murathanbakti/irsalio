@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extension files
+*.so
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Unit test / coverage reports
+*.log
+*.tmp
+
+# Environment variables
+.env
+.env.*
+
+# Pydantic cache
+__pydantic_cache__/
+
+# Output from `pip freeze > requirements.txt`, ignore the pip metadata
+pip-wheel-metadata/
+
+# Local data
+*.sqlite3
+*.db

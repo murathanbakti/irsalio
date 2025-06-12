@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: irsalio
+    env: docker
+    plan: free
+    branch: main
+    healthCheckPath: /
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
